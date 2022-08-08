@@ -76,6 +76,7 @@ def main():
         string = input("Please enter a message to decrypt: ")   
         decrypt(string)
         clearJson()
+    # if another action provided and we don't have another function running, rerun the script
     else:
         if var != 1:
             main()
