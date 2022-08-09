@@ -25,7 +25,7 @@ def rndNumListCreator(s):
 
     return data
 
-def decrypt(toDecrypt):  # the 's' string is an encrypted message
+def decrypt(toDecrypt):  # the 'toDecrypt' string is an encrypted message
     # load data from json and prepare it for decryption
    with open('randoms.json', 'r') as openfile:
             # read the list of random numbers from the file
