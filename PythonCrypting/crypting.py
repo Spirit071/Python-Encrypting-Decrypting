@@ -77,7 +77,7 @@ def main(var):
         else:
             encrypt(string)
 # if we want to decrypt the message then decrypt it
-    if action == 'd':
+    elif action == 'd':
         var = True
         string = input("Please enter a message to decrypt: ")   
         decrypt(string)
