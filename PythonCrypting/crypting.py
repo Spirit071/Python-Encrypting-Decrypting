@@ -4,7 +4,7 @@ import json
 
 # this function is used to generate random numbers for encrypting messages, and then for the decrypt function
 def get_random_number():
-     return random.randint(1, 1000)
+     return random.randint(1, 5000)
 
 # this function is used to delete earlier json data, and recieving new data
 def clearJson():
